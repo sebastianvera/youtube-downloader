@@ -14,8 +14,6 @@ After getting the youtube's video id, we proceed to get the urls for download.
 
 ```sh
 ./youtube.sh video_id
-
-
 ## FORMAT 1
 URL1
 ---------------
@@ -23,12 +21,11 @@ URL1
 URL2
 ---------------
 ...
-
 ```
 
 Now just choose the format, copy the url and open it in the browser, or since we are in the console, use the `open` command.
 
-`open YOUTUBEVIDEOURL`
+`open URL2`
 
 ## TODOS
 - Select the wanted format from the terminal (something like yeoman's generators).
